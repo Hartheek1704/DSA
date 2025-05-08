@@ -1,1 +1,41 @@
+Nested loops:-
+
+
+* There are three types of solutions are any problem.
+* Brute force.
+* Better.
+* Optimal.
+
+* Brute force :- most of the solutions can be return in the using tools.
+* Step 1: how many rows we need to bring.
+* Step 2: how many columns we need to print.
+* Step 3: 
+
+
+
+Code of patterns:-
+* public class Main {
+*     public static void main(String[] args) {
+*        
+* 
+*         for (int i = 1; i<=5; i++) {
+*             for (int j = 1; j<=i; j++) {
+*                // if (j == 1 || j == n || i == n / 2 + 1) {
+*                 
+*                 
+*                 //if (j == n - (i - 1) || j == n + (i - 1)) {
+*                     System.out.print(i);
+*                 
+*                 
+*             }
+*             System.out.println();
+*         }
+*     }
+* }
+
+Armstrong numbers:
+Prime numbers(check and print all primes in a range):
+Factors of a numbers
+
+
 
