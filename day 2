@@ -1,1 +1,114 @@
+Day : 2
+Static block and constructor
 
+
+Constructer are used to inisilize the object.
+For everyclass there will be default constructer
+When ever we create a class constructer will be called ,then object will be created.
+Constructor having class name and method properties.
+Methods:
+Example:
+ public  class q2 {
+    public static void main(String[] args) {
+        Demo d1 = new Demo();
+        Demo d2 = new Demo();
+    }
+}
+class Demo{
+    static{
+        System.out.println("Static Block");
+    }
+
+    Demo(){
+         System.out.println("constructor");
+    }
+}        
+  
+
+Static Method:
+* Static block can created with “static Keyword”
+* It will be created automatically 
+* No need to call either object or class
+* 
+    * For static method no need to call with object you can dircectly call with class name and here static will acts as instant(or) object.
+    * 
+    * 
+Creating multiple methods :
+    * 
+    * public class Main {
+    *     public static void main(String[] args) {
+    *         Student obj = new Student();
+    *         obj.setAge(24);
+    *         obj.setName("Sai");
+    *         obj.setERP(123456L);
+    *         obj.setPassedout(true);
+    * 
+    *         int res = obj.getAge();
+    *         System.out.println("Age: " + res);
+    *         System.out.println("Name: " + obj.getName());
+    *         System.out.println("ERP: " + obj.getERP());
+    *         System.out.println("Passed Out: " + obj.getPassedout());
+    *     }
+    * }
+    * 
+    * class Student {
+    *     private int age;
+    *     private String name;
+    *     private Long ERP;
+    *     private boolean passedout;
+    * 
+    *     public void setAge(int age1) {
+    *         this.age = age1;
+    *     }
+    * 
+    *     public int getAge() {
+    *         return age;
+    *     }
+    * 
+    *     public void setName(String name2) {
+    *         this.name = name2;
+    *     }
+    * 
+    *     public String getName() {
+    *         return name;
+    *     }
+    * 
+    *     public void setERP(Long ERP3) {
+    *         this.ERP = ERP3;
+    *     }
+    * 
+    *     public Long getERP() {
+    *         return ERP;
+    *     }
+    * 
+    *     public void setPassedout(boolean passedout4) {
+    *         this.passedout = passedout4;
+    *     }
+    * 
+    *     public boolean getPassedout() {
+    *         return passedout;
+    *     }
+    * }
+    *           
+   * when we know the range we use Forloop or preffered to use whileloop.for loops
+    
+
+
+Reverse the numbers:
+
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        int n = sc.nextInt();
+        int reverse = 0;
+        while(n != 0){
+            int digit = n%10;
+            reverse = reverse*10+digit;
+            n /=10;
+        }
+        System.out.println(reverse);
+
+    }
+}
