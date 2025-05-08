@@ -1,1 +1,89 @@
+Print a code for monday to Sunday using switch case:
+
+public class Switch {
+    public static void main(String[] args) {
+         int n = 7;
+         String dayName;
+        
+
+        switch (n) {
+            case 1:
+                dayName = "Monday";
+                break;
+            case 2:
+                dayName = "Tuesday";
+                break;
+            case 3:
+                dayName = "Wednesday";
+                break;
+            case 4:
+                dayName = "Thursday";
+                break;
+            case 5:
+                dayName = "Friday";
+                break;
+            case 6:
+                dayName = "Saturday";
+                break;
+            case 7:
+                dayName = "Sunday";
+                break;
+            default:
+                dayName = "Invalid day";
+                break;
+        }
+
+        System.out.println("Day: " + dayName);
+    }
+}
+
+
+Switch  case :
+
+Case have to be the same type as expressions, must be a constant or literal.
+Duplicate values are not allowed .
+Break is used to terminate the sequence.
+If break is not used, It will continue to next case.
+Default will execute when none of the above does.
+If default is not at the end, put break after it.
+  
+
+
+Switch (expression){
+         Case:
+                Statement;
+                 Break;
+          Default;
+                   Statement;
+}
+
+
+
+
+Enhanced if else (or) terinary operator :-
+
+         
+
+
+       (condition) ? Statement 1 : statement2;
+(n==5) ? System.out.println(“YES”) : System.out.println(“NO”);
+
+
+public class Main{
+    public static void main(String[] args) {
+         int n = 5;
+         if(n == 5){
+             System.out.println("YES");
+             }else{
+                 System.out.println("NO");
+             }
+    }
+}       
+         
+
+In collection we don’t have index values in those situations we have to use for each loop.
+
+
+
+ Write any code and convert in to enhanced form.
 
