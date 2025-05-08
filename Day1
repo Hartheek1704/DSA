@@ -1,1 +1,33 @@
+Algorithmic patterns and techniques:-
+- [ ] Prefix sum 
+- [ ] Two patterns
+- [ ] Fast and slow pointers
+- [ ] Sliding window 
+- [ ] Monotic stack
+- [ ] Linkedlist IN_place reversal
+- [ ] Modified binary search
+- [ ] Backtracking/subset generation
+- [ ] Top Elements patterns
+- [ ] Divide and conquer (sorting:quicksort,mergesort,leadane’s algorithms)
+- [ ] Greddy algorithms
+- [ ] Bit manipulation
+- [ ] Matrix traversal
+- [ ] Overlapping intervals
+- [ ] Tree-based algorithms 
+- [ ] Binary tree trivarsal(In-order , pre order post-order, types :-bst,AVL,heap)
+- [ ] Binary tree (DFS,BFS)
+- [ ] Segment tree (fen wick tree )
+- [ ] Tries
+- [ ] Graph algorithms
+- [ ] DFS,BFS topologicalsort.
+- [ ]  Dijkastra’s ,bellmanford, Floyd-warshall,,trogens,prims,kruskal’
+- [ ] s union-find
+- [ ]  ID dynamic programming 
+- [ ] 0/1 knapsack
+- [ ] Longest increasing subsequence (LIS)
+- [ ] Subset sum
+- [ ] 2D dynamic programming 
+- [ ] Fibonacci numbers
+- [ ] Longest common sequence(LCS)
+- [ ] Matrix chain multiplication
 
