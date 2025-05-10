@@ -1,1 +1,76 @@
+Arrays:-
+
+* Collection of similar kind of data in a continous allocation.
+  *   in C and C++ we have pointers defiantly elements will be stored in continious format.
+* In java we don’t have pointers then there is a chance of elements might stored in random places.
+* Syntax:-
+* Data type []and array name.
+* Primitive and non primitive 
+* Primitive data type :  primitive data type can’t be splited.
+* Ex- int, float,char . 
+
+
+* Non primitive :- non primitive data can’t be divided 
+* Ex- string, array,All the objects that are created by users.
+Class node{
+Int data;
+node 
+
+All the objects will be stored in deep memory.
+All the references will be stored in stack memory.
+Stick memory having less space compared to heap.
+class Main {
+    public static void main(String[] args) {
+        dataType[] array name;
+        int a = 10;
+        int b = 11;
+        int c = 12;
+        int d = 13;
+        int [] arr = {10,11,12,13}
+       
+    }
+}
+All the variables having same data types storing in different variables ,instead we can store in single variable by using array.
+It will create multiple variables to get the data simply we can print the variable. When it comes to array we want print the data .we can print using index value and by default index values will start with zero.
+
+* declaration and inisilization in same variable.
+
+
+class Main {
+    public static void main(String[] args) {
+        int [] arr = {10,11,12,13}
+       
+    }
+}
+In arrays it is araray_name.lenght and
+In strings it is string_name.lenght().
+
+
+
+
+Camel case and Snake case:- 
+To string the size of an array and initialising the values later;
+To string can accept only one argument and that too array.
+
+In java it preferred to use camel case to write production level code.
+We can us array values for simple for loops.
+class Main {
+    public static void main(String[] args) {
+        int [] arr = {10,11,12,13};
+        
+        for (int i : arr){
+            System.out.print(i + " ");
+        }
+        
+
+    }
+}
+In for each loop we don’t need index values. 
+Two strings is an inbuilt method to print an array.
+Array having fixed size if we declare an array size it can’t be changed.
+With the help of new keyword actual object will be created in the heap memory for that particular datatype and size.
+if the array type is  int all the default values are zero.
+
+
+
 
